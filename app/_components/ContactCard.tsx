@@ -1,27 +1,39 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Phone, Code } from "lucide-react";
 import Link from "next/link";
 
 const contactItems = [
     {
-        icon: <Mail className="size-7 text-muted-foreground" />,
-        title: "Email",
-        value: "alex@example.com",
-        link: "mailto:alex@example.com",
+        icon: <Phone className="size-7 text-muted-foreground" />,
+        title: "Phone",
+        value: "+91-7031678999",
+        link: "tel:+917031678999",
     },
     {
-        icon: <Linkedin className="size-7 text-muted-foreground" />,
-        title: "LinkedIn",
-        value: "@alexdeveloper",
-        link: "https://linkedin.com/in/alexdeveloper",
+        icon: <Mail className="size-7 text-muted-foreground" />,
+        title: "Email",
+        value: "ayusingh693@gmail.com",
+        link: "mailto:ayusingh693@gmail.com",
     },
     {
         icon: <Github className="size-7 text-muted-foreground" />,
         title: "GitHub",
-        value: "@alexdev",
-        link: "https://github.com/alexdev",
+        value: "@ayusingh-54",
+        link: "https://github.com/ayusingh-54/",
+    },
+    {
+        icon: <Linkedin className="size-7 text-muted-foreground" />,
+        title: "LinkedIn",
+        value: "@ayush-singh54",
+        link: "https://www.linkedin.com/in/ayush-singh54/",
+    },
+    {
+        icon: <Code className="size-7 text-muted-foreground" />,
+        title: "LeetCode",
+        value: "@ayusingh54",
+        link: "https://leetcode.com/u/ayusingh54/",
     },
 ];
 

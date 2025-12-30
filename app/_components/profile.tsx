@@ -23,29 +23,28 @@ export default function Profile({ setActiveTab }: ProfileProps) {
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <p className="text-muted-foreground leading-relaxed">
-                            Passionate full-stack developer with 6+ years of experience building scalable web applications. I
-                            specialize in React, Node.js, and cloud technologies, with a strong focus on user experience and
-                            performance optimization. I love turning complex problems into simple, beautiful solutions.
+                            B.Tech (IT) student skilled in Python, C++, and ML frameworks like Scikit-learn, TensorFlow, and PyTorch. 
+                            Experienced in LLMs, generative AI, and agentic AI for building scalable, intelligent solutions.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
-                            When I'm not coding, you can find me contributing to open-source projects, writing technical articles,
-                            or exploring the latest web technologies. I'm always eager to learn and share knowledge with the
-                            developer community.
+                            Currently pursuing my degree at Madan Mohan Malaviya University of Technology, Gorakhpur. 
+                            I'm passionate about building AI-powered applications and contributing to innovative projects 
+                            that solve real-world problems.
                         </p>
                         <div className="flex gap-3 sm:gap-0 sm:items-center flex-col sm:flex-row  sm:space-x-4 text-sm text-muted-foreground">
                             <div className="flex items-center">
                                 <MapPin className="w-4 h-4 mr-1" />
-                                San Francisco, CA
+                                Gorakhpur, Uttar Pradesh
                             </div>
                             <div className="flex items-center">
                                 <Calendar className="w-4 h-4 mr-1" />
-                                Available for hire
+                                Available for opportunities
                             </div>
                         </div>
 
                         <div>
-                            <Link href="/resume_dummy.pdf" target='_blank' className="inline-flex items-center text-sm text-primary hover:underline"
-                                aria-label="Download Resume" download="Alex_Developer_Resume.pdf" rel="noopener noreferrer">
+                            <Link href="/Ayush_Singh_Resume.pdf" target='_blank' className="inline-flex items-center text-sm text-primary hover:underline"
+                                aria-label="Download Resume" download="Ayush_Singh_Resume.pdf" rel="noopener noreferrer">
                                 <Download className="w-4 h-4 mr-2" />
                                 Download Resume
                             </Link>

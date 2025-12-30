@@ -59,7 +59,7 @@ export default function Header() {
                                         height={40}
                                         width={40}
                                         className="absolute h-full w-full top-0 left-0 rounded-xl object-cover saturate-100"
-                                        aria-label="Profile photo of Alex Developer"
+                                        aria-label="Profile photo of Ayush Singh"
                                         quality={100}
                                     />
                                 </div>
@@ -67,17 +67,17 @@ export default function Header() {
                         </div>
                         <div className='hidden sm:block'>
                             <h1 className="text-base sm:text-xl font-medium flex items-center gap-2">
-                                Alex Developer
+                                Ayush Singh
                                 <div className="size-1.5 sm:size-2.5 animate-pulse relative after:content-[''] after:absolute flex items-center justify-center after:h-full after:w-full after:bg-green-400 after:rounded-full after:animate-ping rounded-full bg-primary"></div>
                             </h1>
                             <p className="text-muted-foreground text-[11px] sm:text-sm">
-                                Full Stack Developer & UI/UX Designer
+                                AI/ML Developer & Software Engineer
                             </p>
                         </div>
                     </div>
                     <div className="flex items-center space-x-2">
                         <ThemeToggle />
-                        <Link href="https://github.com/psparwez" aria-label="View GitHub Profile" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://github.com/ayusingh-54" aria-label="View GitHub Profile" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline" size="sm">
                                 <Github className="w-4 h-4 sm:mr-1" />
                                 <span className="hidden sm:inline">View GitHub</span>

@@ -59,24 +59,24 @@ export default function Hero({ setActiveTab }: HeroProps) {
                                 height={80}
                                 width={80}
                                 className="absolute h-full w-full top-0 left-0 rounded-lg object-cover saturate-100"
-                                aria-label="Profile photo of Alex Developer"
+                                aria-label="Profile photo of Ayush Singh"
                                 quality={100}
                             />
                         </div>
                     </div>
                     <div>
                         <h1 className="text-xl font-medium flex items-center gap-2">
-                            Alex Developer
+                            Ayush Singh
                             <div className="size-1.5 animate-pulse relative after:content-[''] after:absolute flex items-center justify-center after:h-full after:w-full after:bg-green-400 after:rounded-full after:animate-ping rounded-full bg-primary"></div>
                         </h1>
                         <p className="text-muted-foreground text-sm">
-                            Full Stack Developer & UI/UX Designer
+                            AI/ML Developer & Software Engineer
                         </p>
                     </div>
 
                     <div className="flex justify-between gap-1 items-center">
                         <a
-                            href="/resume_dummy.pdf"
+                            href="/Ayush_Singh_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Open Resume"
