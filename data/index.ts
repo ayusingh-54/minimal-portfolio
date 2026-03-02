@@ -39,7 +39,7 @@ export const projects = [
       "A full-stack AI-powered portfolio website with a co-browsing chat assistant. The chatbot can navigate the page, highlight elements, and answer questions about projects, skills, and experience using OpenAI's GPT model with function calling for co-browsing tools.",
     tech: ["React", "Vite", "TailwindCSS", "Express", "TypeScript", "PostgreSQL", "Drizzle ORM", "OpenAI GPT", "Radix UI"],
     github: "https://github.com/ayusingh-54/AI-Co-Browser",
-    live: "",
+    live: "https://ai-co-browser.vercel.app/",
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
