@@ -153,7 +153,7 @@ export const experience = [
     title: "Full Stack AI Engineer",
     company: "Tycho Technologies",
     period: "August 2025 - December 2025",
-    location: "Remote",
+    location: "Noida, Uttar Pradesh, India (Remote)",
     description:
       "Building end-to-end RAG systems and developing agentic RAG solutions for test monitoring and quality assurance automation.",
     achievements: [
