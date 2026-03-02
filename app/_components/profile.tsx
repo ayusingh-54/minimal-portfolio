@@ -23,13 +23,12 @@ export default function Profile({ setActiveTab }: ProfileProps) {
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <p className="text-muted-foreground leading-relaxed">
-                            B.Tech (IT) student skilled in Python, C++, and ML frameworks like Scikit-learn, TensorFlow, and PyTorch. 
-                            Experienced in LLMs, generative AI, and agentic AI for building scalable, intelligent solutions.
+                            AI Engineer specializing in Machine Learning and Agentic AI systems using LangChain, LangGraph, CrewAI, n8n, and MCP. 
+                            Experienced in LLM fine-tuning, FastAPI-based deployment, and MLOps. 3× Hackathon Winner.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
-                            Currently pursuing my degree at Madan Mohan Malaviya University of Technology, Gorakhpur. 
-                            I'm passionate about building AI-powered applications and contributing to innovative projects 
-                            that solve real-world problems.
+                            Currently pursuing B.Tech in Information Technology at Madan Mohan Malviya University of Technology, Gorakhpur. 
+                            Passionate about building AI-powered applications and autonomous agent systems that solve real-world problems.
                         </p>
                         <div className="flex gap-3 sm:gap-0 sm:items-center flex-col sm:flex-row  sm:space-x-4 text-sm text-muted-foreground">
                             <div className="flex items-center">

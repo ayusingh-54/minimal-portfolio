@@ -2,29 +2,57 @@ import {
   Code,
   Database,
   Globe,
-  Smartphone,
   Server,
-  Palette,
   Brain,
   Wrench,
+  Layers,
 } from "lucide-react";
 
 export const skills = [
-  { name: "Python", icon: Code, level: 95 },
-  { name: "C++", icon: Code, level: 85 },
-  { name: "JavaScript", icon: Code, level: 80 },
-  { name: "React", icon: Globe, level: 80 },
-  { name: "Machine Learning", icon: Brain, level: 90 },
-  { name: "Deep Learning", icon: Brain, level: 85 },
-  { name: "LLMs & LangChain", icon: Brain, level: 90 },
+  // ML / AI
+  { name: "Machine Learning", icon: Brain, level: 95 },
+  { name: "Deep Learning", icon: Brain, level: 90 },
+  { name: "NLP & LLMs", icon: Brain, level: 95 },
+  { name: "RAG & ReAct Agents", icon: Brain, level: 95 },
+  { name: "LangChain / LangGraph", icon: Brain, level: 95 },
+  { name: "Fine-Tuning", icon: Brain, level: 85 },
   { name: "Scikit-learn", icon: Code, level: 90 },
-  { name: "TensorFlow/PyTorch", icon: Brain, level: 85 },
-  { name: "Docker", icon: Server, level: 75 },
-  { name: "MLOps/CI-CD", icon: Wrench, level: 80 },
-  { name: "Git/GitHub", icon: Server, level: 85 },
+  { name: "TensorFlow / PyTorch", icon: Brain, level: 85 },
+  { name: "FastAPI", icon: Server, level: 90 },
+  { name: "n8n", icon: Wrench, level: 85 },
+  // Frontend
+  { name: "React.js / Next.js", icon: Globe, level: 85 },
+  { name: "Streamlit", icon: Globe, level: 90 },
+  // Databases & Infra
+  { name: "MongoDB / PostgreSQL", icon: Database, level: 85 },
+  { name: "Vector DBs (Pinecone, FAISS)", icon: Database, level: 90 },
+  { name: "Docker / Kubernetes", icon: Server, level: 80 },
+  { name: "AWS", icon: Server, level: 75 },
+  { name: "CI/CD", icon: Wrench, level: 80 },
+  { name: "Git / GitHub", icon: Layers, level: 90 },
 ];
 
 export const projects = [
+  {
+    title: "100 Days – 100 AI Agents Challenge",
+    description:
+      "Built 100+ AI agents using LangChain, LangGraph, and AutoGen to solve real-world problems across customer support, research, sales, and automation. Developed RAG and multi-agent AI systems with vector databases (Pinecone, FAISS) and Streamlit frontends for interactive, production-ready demos. Integrated external APIs (Instagram, Google Maps, DuckDuckGo, Apify) to enrich AI agents with live data for lead generation, web research, and automated communication.",
+    tech: ["LangChain", "LangGraph", "AutoGen", "Streamlit", "Pinecone", "FAISS", "ChromaDB", "Python", "OpenAI"],
+    github: "https://github.com/ayusingh-54/100-Days-100-AI-AGENTS-",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  {
+    title: "CodeForge-AI",
+    description:
+      "Built a framework-free autonomous coding agent using the ReAct methodology, enabling multi-step reasoning, tool execution, and self-correcting workflows. Reduced developer task execution time from ~30 minutes to ~30 seconds using natural-language-driven automation. Designed a context-aware, secure AI system with workspace memory, tool orchestration, and safety guardrails for real-world coding tasks.",
+    tech: ["Python", "OpenAI GPT-4o", "ReAct", "Rich CLI", "Async IO", "MCP"],
+    github: "https://github.com/ayusingh-54",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
   {
     title: "Kisan Mitra",
     description:
@@ -56,16 +84,6 @@ export const projects = [
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
   {
-    title: "CodeForge-AI",
-    description:
-      "AI coding agent using ReAct framework that automates 80% of repetitive developer tasks. Engineered modular architecture with 15+ core components enabling scalable reasoning workflows. Reduced manual debugging effort by 60%.",
-    tech: ["Python", "ReAct", "LLM", "AI Agents"],
-    github: "https://github.com/ayusingh-54",
-    live: "",
-    image: "/placeholder.svg?height=200&width=400",
-    image_dark: "/placeholder.dark.svg?height=200&width=400",
-  },
-  {
     title: "Startup Funding Predictor",
     description:
       "Machine learning regression model to predict startup funding amounts with 84% R² score. Processed and analyzed 2,900+ Indian startup records (2018-2020), achieving 30% faster insight extraction through optimized EDA.",
@@ -75,61 +93,47 @@ export const projects = [
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
-  {
-    title: "100 Days - 100 AI Agents",
-    description:
-      "Built 8+ AI agents integrating LLMs, multi-agent orchestration, vector databases, and real-world APIs. Implemented multi-agent customer support system with query routing and sentiment analysis, reducing manual support effort by ~60%.",
-    tech: ["Python", "LangChain", "LangGraph", "APIs", "AI Agents"],
-    github: "https://github.com/ayusingh-54/100-Days-100-AI-AGENTS-",
-    live: "",
-    image: "/placeholder.svg?height=200&width=400",
-    image_dark: "/placeholder.dark.svg?height=200&width=400",
-  },
 ];
 
 export const experience = [
   {
-    title: "AI Engineer (Part-Time)",
-    company: "JaxAI",
-    period: "2025 - Present",
+    title: "Full Stack AI Engineer",
+    company: "Tycho Technologies",
+    period: "2026 - Present",
     location: "Remote",
     description:
-      "Leading AI development initiatives at a cutting-edge startup that merges applied research with cinematic design. Building AI automations, custom agents, and scalable solutions for elite teams and startups.",
+      "Building end-to-end RAG systems and developing agentic RAG solutions for test monitoring and quality assurance automation.",
     achievements: [
-      "Architected and delivered multiple AI-powered products from concept to launch",
-      "Developed custom AI agents and automation workflows using LangChain and OpenAI",
-      "Collaborated with cross-functional pods (engineering, design, AI) in agile sprints",
-      "Implemented explainable AI solutions with traceable decision-making logic",
-      "Contributed to open-source projects including '100 Days – 100 AI Agents' initiative",
+      "Developing end-to-end RAG systems for intelligent document retrieval and question answering",
+      "Building agentic RAG pipelines for automated test monitoring and anomaly detection",
+      "Implementing full-stack AI solutions with modern web technologies and LLM integrations",
     ],
   },
   {
-    title: "Software Developer",
+    title: "AI Engineer Intern",
+    company: "U2xAI",
+    period: "January 2024 - Present",
+    location: "New Jersey, United States (Remote)",
+    description:
+      "Developing a data-first, AI-driven supply chain intelligence platform by integrating retail POS, distributor, and inventory data to deliver real-time insights and decision support.",
+    achievements: [
+      "Designing BigQuery-based analytics pipelines to preprocess large-scale operational data and compute inventory health, demand forecasts, and incentive metrics for AI consumption",
+      "Designing MCP-based tool interfaces to expose structured supply chain metrics, enabling LLM-driven reasoning, explainability, and action recommendations",
+      "Collaborating on frontend architecture to surface high-priority AI insights and notifications, minimizing manual data entry and improving product adoption",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
     company: "HapScale Pvt Ltd",
-    period: "Dec 2024 - July 2025",
-    location: "Bangalore, India",
+    period: "August 2024 - January 2025",
+    location: "Bangalore, India (Remote)",
     description:
-      "Spearheaded the development of secure API integrations and automated processes. Created dynamic dashboards and performed in-depth exploratory data analysis.",
+      "Spearheaded the development of secure API integrations and automated processes, significantly improving system performance and user experience.",
     achievements: [
-      "Boosted API performance by 25%",
-      "Automated password reset process, reducing manual interventions by 99.9%",
-      "Increased user engagement by 30% through landing page optimization",
-      "Created 5+ dynamic dashboards using Streamlit and Matplotlib",
-      "Reduced reporting time by 35% through automated EDA scripts",
-    ],
-  },
-  {
-    title: "Founder",
-    company: "UniFoodHub",
-    period: "Sept 2024 - Feb 2025",
-    location: "Gorakhpur, Uttar Pradesh",
-    description:
-      "Founded a food delivery platform addressing the gap in meal accessibility for hostel students. Built end-to-end solution with restaurant partnerships, intuitive UI, and secure payment integration.",
-    achievements: [
-      "Collaborated with 10+ local restaurants, improving meal accessibility by 70%",
-      "Designed intuitive ordering interface, reducing order placement time by 40%",
-      "Integrated secure payment solutions with MongoDB, reducing query response time by 50%",
-      "Generated ₹30,000+ in revenue by boosting customer engagement and restaurant visibility",
+      "Spearheaded the development of secure API integrations for seamless data handling, boosting performance by 25%",
+      "Automated the password reset process, improving user account security and reducing manual interventions by 99.9%",
+      "Optimized the HapScale Landing Page, leading to a 30% increase in user engagement and brand visibility",
+      "Developed and enhanced the HapScale Tool, successfully tested on 3,000+ individuals, generating key insights for organizational improvement",
     ],
   },
 ];
@@ -138,24 +142,23 @@ export const achievements = [
   {
     title: "Rise To Top Winner",
     description: "District Level Competition",
-  },
-  {
-    title: "Hackathon Finalist - Techfest, IIT Bombay",
-    description: "Top 0.5% out of 10,000+ applicants in VISIONX AI competition",
+    link: "",
   },
   {
     title: "SIH Internal Winner",
     description: "Secured 2nd place among 160+ teams in Smart India Hackathon internal round at MMMUT",
+    link: "",
   },
   {
-    title: "Workshop Participant",
-    description: "Techfest, IIT Bombay & GUVI-HCL",
+    title: "Hackathon Finalist - Techfest, IIT Bombay",
+    description: "Top 0.5% out of 10,000+ applicants in VISIONX AI competition",
+    link: "",
   },
 ];
 
 export const education = {
-  degree: "Bachelor of Engineering in Information Technology",
-  university: "Madan Mohan Malaviya University of Technology",
-  location: "Gorakhpur, Uttar Pradesh",
-  period: "2023 - 2027",
+  degree: "Bachelor of Technology in Information Technology",
+  university: "Madan Mohan Malviya University of Technology",
+  location: "Gorakhpur, India",
+  period: "September 2023 - Present",
 };

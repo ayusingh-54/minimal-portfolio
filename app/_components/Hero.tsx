@@ -70,7 +70,7 @@ export default function Hero({ setActiveTab }: HeroProps) {
                             <div className="size-1.5 animate-pulse relative after:content-[''] after:absolute flex items-center justify-center after:h-full after:w-full after:bg-green-400 after:rounded-full after:animate-ping rounded-full bg-primary"></div>
                         </h1>
                         <p className="text-muted-foreground text-sm">
-                            AI/ML Developer & Software Engineer
+                            ML/AI • React Developer • GenAI Developer
                         </p>
                     </div>
 
