@@ -137,19 +137,6 @@ export const projects = [
 
 export const experience = [
   {
-    title: "Full Stack AI Engineer",
-    company: "Tycho Technologies",
-    period: "August 2025 - December 2025",
-    location: "Remote",
-    description:
-      "Building end-to-end RAG systems and developing agentic RAG solutions for test monitoring and quality assurance automation.",
-    achievements: [
-      "Developing end-to-end RAG systems for intelligent document retrieval and question answering",
-      "Building agentic RAG pipelines for automated test monitoring and anomaly detection",
-      "Implementing full-stack AI solutions with modern web technologies and LLM integrations",
-    ],
-  },
-  {
     title: "AI Engineer Intern",
     company: "U2xAI",
     period: "January 2024 - Present",
@@ -160,6 +147,19 @@ export const experience = [
       "Designing BigQuery-based analytics pipelines to preprocess large-scale operational data and compute inventory health, demand forecasts, and incentive metrics for AI consumption",
       "Designing MCP-based tool interfaces to expose structured supply chain metrics, enabling LLM-driven reasoning, explainability, and action recommendations",
       "Collaborating on frontend architecture to surface high-priority AI insights and notifications, minimizing manual data entry and improving product adoption",
+    ],
+  },
+  {
+    title: "Full Stack AI Engineer",
+    company: "Tycho Technologies",
+    period: "August 2025 - December 2025",
+    location: "Remote",
+    description:
+      "Building end-to-end RAG systems and developing agentic RAG solutions for test monitoring and quality assurance automation.",
+    achievements: [
+      "Developing end-to-end RAG systems for intelligent document retrieval and question answering",
+      "Building agentic RAG pipelines for automated test monitoring and anomaly detection",
+      "Implementing full-stack AI solutions with modern web technologies and LLM integrations",
     ],
   },
   {
