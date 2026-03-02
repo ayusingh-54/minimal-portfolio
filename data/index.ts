@@ -64,6 +64,16 @@ export const projects = [
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
   {
+    title: "Grow My Therapy — Dr. Maya Reynolds",
+    description:
+      "A modern, responsive therapist portfolio website built as a Stage 2 Internship Selection Project. Redesigns a Squarespace Lilac template into a fully custom React application for Dr. Maya Reynolds, a licensed clinical psychologist based in Santa Monica, California.",
+    tech: ["React", "TypeScript", "TailwindCSS", "Responsive Design", "Vercel"],
+    github: "https://github.com/ayusingh-54/Grow-My-Therapy-Dr.-Maya-Reynolds-PsyD",
+    live: "https://grow-my-therapy-dr-maya-reynolds-ps.vercel.app/",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  {
     title: "100 Days – 100 AI Agents Challenge",
     description:
       "Built 100+ AI agents using LangChain, LangGraph, and AutoGen to solve real-world problems across customer support, research, sales, and automation. Developed RAG and multi-agent AI systems with vector databases (Pinecone, FAISS) and Streamlit frontends for interactive, production-ready demos. Integrated external APIs (Instagram, Google Maps, DuckDuckGo, Apify) to enrich AI agents with live data for lead generation, web research, and automated communication.",
