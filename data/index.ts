@@ -34,6 +34,36 @@ export const skills = [
 
 export const projects = [
   {
+    title: "AI Co-Browser — Portfolio Assistant",
+    description:
+      "A full-stack AI-powered portfolio website with a co-browsing chat assistant. The chatbot can navigate the page, highlight elements, and answer questions about projects, skills, and experience using OpenAI's GPT model with function calling for co-browsing tools.",
+    tech: ["React", "Vite", "TailwindCSS", "Express", "TypeScript", "PostgreSQL", "Drizzle ORM", "OpenAI GPT", "Radix UI"],
+    github: "https://github.com/ayusingh-54/AI-Co-Browser",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  {
+    title: "Vizzy Chat",
+    description:
+      "A premium AI-powered conversational creative platform built for Deckoviz. Provides a single conversational interface where users can create, transform, iterate, and deploy visual, narrative, and experiential content. Powered by OpenAI's GPT-4o and DALL-E 3 models, orchestrated through a LangChain + LangGraph state machine pipeline with a polished Streamlit chat UI.",
+    tech: ["OpenAI GPT-4o", "DALL-E 3", "LangChain", "LangGraph", "Streamlit", "Python"],
+    github: "https://github.com/ayusingh-54/A-premium-AI-powered-conversational-creative-platform",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  {
+    title: "RAG Knowledge Quest",
+    description:
+      "A production-ready Retrieval-Augmented Generation (RAG) chatbot specializing in human nutrition knowledge. Built from scratch with modern web technologies, processes PDF documents and enables intelligent Q&A through semantic search and large language model integration.",
+    tech: ["RAG", "LLM", "Semantic Search", "PDF Processing", "Next.js", "TypeScript"],
+    github: "https://github.com/ayusingh-54/Production-Rag-System-",
+    live: "https://production-rag-system.vercel.app/",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  {
     title: "100 Days – 100 AI Agents Challenge",
     description:
       "Built 100+ AI agents using LangChain, LangGraph, and AutoGen to solve real-world problems across customer support, research, sales, and automation. Developed RAG and multi-agent AI systems with vector databases (Pinecone, FAISS) and Streamlit frontends for interactive, production-ready demos. Integrated external APIs (Instagram, Google Maps, DuckDuckGo, Apify) to enrich AI agents with live data for lead generation, web research, and automated communication.",
