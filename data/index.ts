@@ -34,6 +34,16 @@ export const skills = [
 
 export const projects = [
   {
+    title: "OpenClaw — AI Assistant from Scratch",
+    description:
+      "A production-grade, open-source, fully self-hosted Slack AI bot that combines RAG, Long-Term Memory, and MCP Tool Integrations into a single, hackable codebase. Built from absolute zero to demonstrate end-to-end AI assistant architecture.",
+    tech: ["RAG", "Long-Term Memory", "MCP", "Slack Bot", "Python", "LLM"],
+    github: "https://github.com/ayusingh-54/OpenClaw-From-Scratch",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  {
     title: "AI Co-Browser — Portfolio Assistant",
     description:
       "A full-stack AI-powered portfolio website with a co-browsing chat assistant. The chatbot can navigate the page, highlight elements, and answer questions about projects, skills, and experience using OpenAI's GPT model with function calling for co-browsing tools.",
