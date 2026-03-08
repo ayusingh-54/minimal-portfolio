@@ -147,6 +147,20 @@ export const projects = [
 
 export const experience = [
   {
+    title: "AI Consultant",
+    company: "HiLo MRM",
+    period: "March 2026 - May 2026",
+    location: "Remote (India)",
+    description:
+      "Short-term AI consulting project focused on developing intelligent decision support and predictive risk assessment systems with prompt engineering optimization.",
+    achievements: [
+      "Developing Decision Support System for AI-driven business intelligence and recommendations",
+      "Building Predictive Risk Assessment System for proactive risk identification and mitigation",
+      "Improving and optimizing existing prompts for enhanced LLM performance and accuracy",
+      "Maintaining requirement traceability logs from request through development and testing phases",
+    ],
+  },
+  {
     title: "AI Engineer Intern",
     company: "U2xAI",
     period: "January 2024 - Present",
