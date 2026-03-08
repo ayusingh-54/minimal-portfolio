@@ -150,7 +150,7 @@ export const experience = [
     title: "AI Consultant",
     company: "HiLo MRM",
     period: "March 2026 - May 2026",
-    location: "Remote (India)",
+    location: "Milton Keynes, England (Remote)",
     description:
       "Short-term AI consulting project focused on developing intelligent decision support and predictive risk assessment systems with prompt engineering optimization.",
     achievements: [
